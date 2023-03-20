@@ -17,6 +17,9 @@ ZSH_THEME="eastwood"
 # If set to an empty array, this variable will have no effect.
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
+# Set Variables
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -108,6 +111,10 @@ alias yd="yarn dev"
 alias lsA="ls -lAFhG" # A: all without . and .. | F: add / for directories | H: change to readable file size
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+
+# Path Variables
+# Add Visual Studio Code (code)
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # Functions
 
