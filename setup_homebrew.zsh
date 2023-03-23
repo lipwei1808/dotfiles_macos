@@ -2,9 +2,11 @@
 
 echo "\n<<< Starting homebrew setup >>>\n"
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+if exists brew; then
+  echo "brew exists, skipping install"
+else
+  echo "brew doesn't exist, proceeding to install"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
 
-brew install bat
-
-brew install google-chrome
-brew install visual-studio-code
+brew bundle --verbose

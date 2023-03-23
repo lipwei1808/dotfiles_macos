@@ -19,6 +19,7 @@ ZSH_THEME="eastwood"
 
 # Set Variables
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -109,6 +110,9 @@ alias zshconfig="vim ~/.zshrc"
 alias ys="yarn start"
 alias yd="yarn dev"
 alias lsA="ls -lAFhG" # A: all without . and .. | F: add / for directories | H: change to readable file size
+alias exa="exa -laFh --git"
+alias bbd="brew bundle dump --force --describe"
+alias trail='<<<${(F)path}'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
@@ -120,4 +124,8 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 
 function mkcd() {
   mkdir -p "$@" && cd "$_";
+}
+
+function exists() {
+  command -v $1 >/dev/null 2>&1
 }
