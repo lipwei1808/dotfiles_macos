@@ -11,8 +11,8 @@ brew "git"
 brew "node@16"
 # MongoDB Shell to connect, configure, query, and work with your MongoDB database
 brew "mongosh"
-# Platform built on V8 to build network applications
-brew "node"
+# Manage multiple Node.js versions
+brew "nvm"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Terminal emulator as alternative to Apple's Terminal app

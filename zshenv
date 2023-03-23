@@ -1,5 +1,9 @@
 echo "Hello from .zshenv"
 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+source $NVM_DIR/nvm.sh
+
 function exists() {
   # command -v (which) 
   # $1 refers to the first arg passed in (file)
