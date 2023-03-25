@@ -15,6 +15,7 @@
       create: true
       path: ohmyzsh
     ~/.vim:
+    ~/.vimrc:
 
 #- create:
 
