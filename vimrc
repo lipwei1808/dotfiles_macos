@@ -41,7 +41,7 @@ abbr sout System.out.println("");<esc>2hi
 abbr sop System.out.print("");<esc>2hi
 abbr forl for (int i = 0; i < ; i++) {<esc>7hi
 
-# Set reminders to prevent usage of arrow keys
+" Set reminders to prevent usage of arrow keys
 nnoremap <Left>  :echoe "Use h"<CR>
 nnoremap <Right> :echoe "Use l"<CR>
 nnoremap <Up>    :echoe "Use k"<CR>

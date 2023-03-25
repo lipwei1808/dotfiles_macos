@@ -12,14 +12,18 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 export ZSH="$HOME/.oh-my-zsh"
 
+source $ZSH/oh-my-zsh.sh
+
+# Enable vi mode
+bindkey -v
+
 # Plugins
 plugins=(
   git
   zsh-autosuggestions
   web-search
+  vi-mode
 )
-
-source $ZSH/oh-my-zsh.sh
 
 # Aliases
 alias zshconfig="vim ~/.zshrc"
@@ -29,6 +33,7 @@ alias lsA="ls -lAFhG" # A: all without . and .. | F: add / for directories | H: 
 alias exa="exa -laFh --git"
 alias bbd="brew bundle dump --force --describe"
 alias trail='<<<${(F)path}'
+alias sourcez='source ~/.zshrc'
 
 # Path Variables
 # Add Visual Studio Code (code)
