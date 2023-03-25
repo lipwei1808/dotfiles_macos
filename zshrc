@@ -20,8 +20,6 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-source $(brew --prefix nvm)/nvm.sh
-source $NVM_DIR/nvm.sh
 
 # Aliases
 alias zshconfig="vim ~/.zshrc"

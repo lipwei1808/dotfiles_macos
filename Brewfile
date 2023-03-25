@@ -17,3 +17,7 @@ brew "nvm"
 brew "zsh"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# App to write, plan, collaborate, and get organized
+cask "notion"
+# Move and resize windows using keyboard shortcuts or snap areas
+cask "rectangle"

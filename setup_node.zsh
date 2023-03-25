@@ -10,3 +10,8 @@ else
   nvm use 16
   nvm alias defualt 16
 fi
+
+npm install --global yarn
+
+echo "Global packages installed currently"
+npm list --global
