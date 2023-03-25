@@ -4,6 +4,13 @@ echo "\n<<< Starting ZSH setup >>>\n"
 
 BREW_ZSH_PATH=opt/homebrew/bin/zsh
 
+if ls -a ~ | grep -Fq .oh-my-zsh; then
+  echo "oh-my-zsh exists"
+else
+  echo "oh-my-zsh doesnt exists"
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+fi
+
 if grep -Fxq '/opt/homebrew/bin/zsh' '/etc/shells'; then
   echo '/opt/homebrew/bin/zsh already exists in /etc/shells'
 else
