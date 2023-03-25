@@ -14,6 +14,7 @@
     ~/.oh-my-zsh/custom:
       create: true
       path: ohmyzsh
+    ~/.vim:
 
 #- create:
 
