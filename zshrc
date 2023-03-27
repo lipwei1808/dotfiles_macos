@@ -34,6 +34,8 @@ alias exa="exa -laFh --git"
 alias bbd="brew bundle dump --force --describe"
 alias trail='<<<${(F)path}'
 alias sourcez='source ~/.zshrc'
+alias tlw='cd ~/Desktop/tanlipwei && code . && yarn dev'
+alias sgu='cd ~/Desktop/sgu-frontend && code . && yarn dev'
 
 # Path Variables
 # Add Visual Studio Code (code)
