@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+tap "mongodb/brew"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Modern replacement for 'ls'
@@ -15,6 +16,8 @@ brew "mongosh"
 brew "nvm"
 # UNIX shell (command interpreter)
 brew "zsh"
+# High-performance, schema-free, document-oriented database
+brew "mongodb/brew/mongodb-community@4.2"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Terminal emulator as alternative to Apple's Terminal app
