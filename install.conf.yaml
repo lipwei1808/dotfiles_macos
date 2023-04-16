@@ -11,9 +11,6 @@
     ~/.config/bat:
       create: true
       path: bat
-    ~/.oh-my-zsh/custom:
-      create: true
-      path: ohmyzsh
     ~/.vim:
     ~/.vimrc:
 
