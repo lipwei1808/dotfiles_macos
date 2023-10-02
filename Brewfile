@@ -16,8 +16,6 @@ brew "mongosh"
 brew "nvm"
 # UNIX shell (command interpreter)
 brew "zsh"
-# High-performance, schema-free, document-oriented database
-brew "mongodb/brew/mongodb-community@4.2"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Terminal emulator as alternative to Apple's Terminal app
@@ -26,9 +24,7 @@ cask "iterm2"
 cask "notion"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
-# Platform for 3D content
-cask "unity"
-# Management tool for Unity
-cask "unity-hub"
 # Open-source code editor
 cask "visual-studio-code"
+# Google chrome
+cask "google-chrome"
