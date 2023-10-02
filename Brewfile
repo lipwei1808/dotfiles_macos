@@ -28,3 +28,5 @@ cask "rectangle"
 cask "visual-studio-code"
 # Google chrome
 cask "google-chrome"
+# Spotify
+cask "spotify"
