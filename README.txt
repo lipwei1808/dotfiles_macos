@@ -3,3 +3,7 @@
 # brew bundle cleanup - update system based on Brewfile
 # brew bundle dump - update Brewfile based on system
 
+# install forticlient
+# install pgadmin
+
+

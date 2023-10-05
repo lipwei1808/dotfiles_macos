@@ -16,6 +16,8 @@ brew "mongosh"
 brew "nvm"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Postgres
+brew "postgresql@14", restart_service: true
 # App to build and share containerized applications and microservices
 cask "docker"
 # Terminal emulator as alternative to Apple's Terminal app
@@ -30,3 +32,7 @@ cask "visual-studio-code"
 cask "google-chrome"
 # Spotify
 cask "spotify"
+# Intellij
+cask "intellij-idea-ce"
+# Postico (postgres)
+cask "postico"
