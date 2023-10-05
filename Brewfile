@@ -36,3 +36,5 @@ cask "spotify"
 cask "intellij-idea-ce"
 # Postico (postgres)
 cask "postico"
+# Ticktick
+cask "ticktick"
