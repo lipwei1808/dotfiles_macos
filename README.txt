@@ -7,3 +7,5 @@
 # install pgadmin
 
 
+1. brew bundle install (install deps based on the Brewfile)
+2. brew bundle dump [--force] (create Brewfile based on system)
